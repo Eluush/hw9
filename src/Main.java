@@ -37,7 +37,7 @@ public class Main {
         for (int i = 0; i < mounth.length; i++) {
             sum += mounth[i];
         }
-        sum = sum / 5;
+        sum = sum / mounth.length;
         System.out.println(sum);
 
         System.out.println("Задание 4");
